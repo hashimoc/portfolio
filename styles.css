@@ -1,0 +1,57 @@
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    height: 75px;
+}
+
+nav a {
+    display: block;
+  color: #ffffff;
+  padding: 0.5rem;
+  text-decoration: none;
+  line-height: 75px;
+  padding-right: 50px;
+}
+
+.content{
+    margin: 0;
+    padding: 50px;
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #ffffff;
+}
+
+.card{
+    display: inline-flex;
+}
+
+.left img {
+    max-width: 100%;
+}
+
+.Projects{
+background-color: #4C5265;
+}
+
+.Personal, .Contact{
+    background-color: #212129;
+}
+
+.Contact{
+    width: 100%;
+}
+
+.bottom-bar{
+    background-color: #1F1F1F;
+    height: 75px;
+    width: 100%;
+}
